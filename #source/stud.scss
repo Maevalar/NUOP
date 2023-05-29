@@ -1,0 +1,64 @@
+.stud__info{
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #333232;
+    font-weight: 300;
+    margin: 0px 0px 50px 0px;
+}
+.slider{
+    margin: 0px 0px 50px 0px;
+}
+.slide{
+    transition: all 0.3s ease 0s;
+    max-height: 350px;
+    max-width: 636px;
+    overflow: hidden;
+    border-radius: 10px;
+
+    & img{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+.swiper-slide-active{
+    transition: all 0.3s ease 0s;
+    transform: scale(1);
+}
+.swiper-slide-prev{
+    & img{
+        transform: scale(0.7);
+    }
+    opacity: 0.6;
+}
+.swiper-slide-next{
+    & img{
+        transform: scale(0.7);
+    }
+    opacity: 0.6;
+}
+.profcom{
+    font-weight: 300;
+}
+.profcom__title{
+    text-align: center;
+    font-size: 24px;
+}
+.profcom__info{
+    padding: 50px 0px 20px 0px;
+    line-height: 150%;
+
+    @media (max-width: $md3){
+        padding: 0px 10px;
+    }
+}
+.profcom__list{
+    padding: 10px 0px 0px 0px;
+    list-style-type: circle;
+    list-style-position: inside;
+
+    & li{
+        margin: 0px 0px 5px 0px;
+    }
+}

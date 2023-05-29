@@ -1,0 +1,53 @@
+.disciplines-main__title{
+    max-width: 700px;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid #180944;
+    border-top: 1px solid #180944;
+    line-height: 300%;
+    margin: 0px auto;
+
+    @media (max-width: $md3){
+        max-width: 400px;
+    }
+    @media (max-width: $md4){
+        font-size: 18px;
+        max-width: 250px;
+    }
+}
+.disciplines-main__list{
+    
+    padding: 100px 0px 0px 0px;
+
+    & li{
+        margin: 0px 0px 50px 0px;
+    }
+
+    @media (max-width: $md3){
+        padding: 100px 30px 0px 30px;
+    }
+    @media (max-width: $md4){
+        padding: 100px 10px 0px 10px;
+    }
+}
+.disciplines-main__link {
+}
+.disciplines-link__title {
+    display: block;
+    font-size: 18px;
+
+    @media (max-width: $md3){
+        text-align: center;
+    }
+}
+.disciplines-link__text {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 120%;
+    margin: 0px 0px 10px 0px;
+
+    @media (max-width: $md3){
+        text-align: center;
+    }
+}
